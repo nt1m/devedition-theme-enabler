@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>devedition-theme-enabler@tim-addons.com</em:id>
+
+		<em:version>1.0</em:version>
+
+		<em:name>DevEdition theme enabler</em:name>
+
+		<em:description>Enables the DevEdition theme. Uninstalling this add-on removes the DevEdition theme from the add-on manager.</em:description>
+
+		<em:creator>Tim Nguyen</em:creator>
+
+		<em:homepageURL>http://twitter.com/therealntim</em:homepageURL>
+
+		<em:iconURL>resource:///chrome/browser/content/browser/defaultthemes/devedition.icon.png</em:iconURL>
+
+		<em:icon64URL>resource:///chrome/browser/content/browser/defaultthemes/devedition.icon.png</em:icon64URL>
+
+		<em:targetApplication>
+			<Description>
+				<!-- Mozilla Firefox -->
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>29.0a1</em:minVersion>
+				<em:maxVersion>43.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+		<em:type>2</em:type>
+		
+		<em:bootstrap>true</em:bootstrap>
+	</Description>
+</RDF>
