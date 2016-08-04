@@ -1,6 +1,6 @@
 "use strict";
 
-const { classes: Cc, interfaces: Ci, utils: Cu, results: Cr } = Components;
+const { utils: Cu } = Components;
 
 const {Services} = Cu.import("resource://gre/modules/Services.jsm");
 const {LightweightThemeManager} = Cu.import("resource://gre/modules/LightweightThemeManager.jsm");
