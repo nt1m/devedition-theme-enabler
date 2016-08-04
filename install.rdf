@@ -8,7 +8,7 @@
 
 		<em:name>DevEdition theme enabler</em:name>
 
-		<em:description>Enables the DevEdition theme. Uninstalling this add-on removes the DevEdition theme from the add-on manager.</em:description>
+		<em:description>Enables the DevEdition theme. Uninstalling this add-on removes the DevEdition theme from the add-on manager. Bugs regarding the theme should be filed on https://bugzilla.mozilla.org/ in the Theme component of the Firefox product.</em:description>
 
 		<em:creator>Tim Nguyen</em:creator>
 
